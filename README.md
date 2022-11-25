@@ -52,45 +52,42 @@ A web application for storing and retrieving student information
   </a>
 <P/>
 
+  
+  
 <h2 id="folder-structure">Folder Structure</h2>
+<h2 id="folder-structure">Folder Structure</h2>
+
+
 
 ```
 code
 .
-|-- apache-jena-fuseki-3.17.0
+|-- portalBackend
 |   
-|-- queries
+|-- controller
 |   |                        
-|   |-- competency_questions                    <--- SPARQL queries
-|       |-- q1.txt
-|       |-- q1-out.csv
-|       |-- ...         
+|   |-- StudentController
 |
-|-- resource                                    <--- datasets
-|   |-- courses
-|   |   |-- CATALOG.csv                         <--- Concordia University open dataset
-|   |   |-- computer_science_courses.html       <--- Course description
-|   |   |-- processed_CATALOG.csv               <--- Processed Concordia University dataset
-|   |
-|   |-- GCS_143                                 <--- Course content
-|   |   |-- ...
-|   |
-|   |-- GCS_163                                 <--- Course content
-|   |   |-- ...
-|   |
-|   |-- GCS_165                                 <--- Course content
-|   |   |-- ...
-|   |
-|   |-- data_source.txt                         <--- Data information
+|-- exception
+|   |                        
+|   |-- competency_questions                  
 |
-|-- kb.ttl                                      <--- Knowledge base
-|-- main.py                                     <--- Main program
-|-- utils.py                                    <--- Python functions
-|-- report.pdf
-|-- README.md
-|-- README.pdf
-|-- tika-app-1.26.jar
+|-- model
+|   |                        
+|   |-- Student
+|
+|-- repository
+|   |                        
+|   |-- StudentRepository
+|
+|-- service
+|   |                        
+|   |-- StudentService
+|
+|-- PortalBackendApplication
 
+
+```
 
 <!-- CREDITS -->
 <h2 id="credits"> Credits</h2>
