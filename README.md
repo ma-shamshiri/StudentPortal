@@ -15,8 +15,6 @@ The main objective of this project is to detect discriminating features in an im
   <ol>
     <li><a href="#prerequisites"> Prerequisites </a></li>
     <li><a href="#HowToUse"> How to Use </a></li>
-    <li><a href="#results"> </a></li>
-    <li><a href="#reference"> </a></li>
     <li><a href="#credits"> Credits </a></li>
   </ol>
 
@@ -112,14 +110,6 @@ workspace\images\test
 
 <b>Step 8.</b> During this process the Notebook will install Tensorflow Object Detection. You should ideally receive a notification indicating that the API has installed successfully at Step 8 with the last line stating OK.
 </p> 
-
-
-<!-- Results -->
-<h2 id="Results"> Results </h2>
-
-
-<!-- REFERENCES -->
-<h2 id="reference"> References</h2>
 
 
 <!-- CREDITS -->
