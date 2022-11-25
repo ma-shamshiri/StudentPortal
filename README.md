@@ -2,19 +2,15 @@
 A web application for storing and retrieving student information
 
 <h1 align="left"> Student Portal </h1>
-<!-- <img src="images/portal.png" align="left" width="99%" height="99%"> -->
+<img src="images/portal.png" align="left" width="99%" height="99%">
 
 <!-- ![Realtime](https://user-images.githubusercontent.com/49322948/159162779-30679424-991e-4088-a56d-333399887281.gif) -->
-
-<p align="justify"> 
-The main objective of this project is to detect discriminating features in an image and find the best matching features in other images. Because features should be reasonably invariant to translation, rotation, and illumination.
-</p>
 
 <!-- TABLE OF CONTENTS -->
 <h2 id="table-of-contents"> Table of Contents</h2>
   <ol>
     <li><a href="#prerequisites"> Prerequisites </a></li>
-    <li><a href="#HowToUse"> How to Use </a></li>
+    <li><a href="#folder-structure"> Folder Structure</a></li>
     <li><a href="#credits"> Credits </a></li>
   </ol>
 
@@ -56,47 +52,44 @@ The main objective of this project is to detect discriminating features in an im
   </a>
 <P/>
 
-<!-- How to Use -->
-<h2 id="HowToUse"> How to Use </h2>
-
-<p align="justify">
-      * Step 1. Download Code as Zip OR <br> 
+<h2 id="folder-structure">Folder Structure</h2>
 
 ```
-git clone https://github.com/ma-shamshiri/Face-Mask-Detection.git
-```
-
-<b>Step 2.</b> Create a new virtual environment
-```
-python -m venv tfod #window
-virtualenv tfod #Linux
-```
-
-<b>Step 3.</b> Activate your virtual environment
-```
-source tfod/bin/activate # Linux
-.\tfod\Scripts\activate # Windows 
-```
-
-<b>Step 4.</b> Install dependencies and add virtual environment to the Python Kernel
-```
-python -m pip install --upgrade pip
-pip install ipykernel
-python -m ipykernel install --user --name=tfodj
-```
-
-<b>Step 5.</b> Collect images and ensure you change the kernel to the virtual environment.
-
-<b>Step 6.</b> Manually divide collected images into two folders train and test. So now all folders and annotations should be split between the following two folders. <br>
-```
-workspace\images\train
-workspace\images\test
-```
-
-<b>Step 7.</b> Begin training process by opening 2. Training and Detection.ipynb, this notebook will walk you through installing Tensorflow Object Detection, making detections, saving and exporting your model.
-
-<b>Step 8.</b> During this process the Notebook will install Tensorflow Object Detection. You should ideally receive a notification indicating that the API has installed successfully at Step 8 with the last line stating OK.
-</p> 
+code
+.
+|-- apache-jena-fuseki-3.17.0
+|   
+|-- queries
+|   |                        
+|   |-- competency_questions                    <--- SPARQL queries
+|       |-- q1.txt
+|       |-- q1-out.csv
+|       |-- ...         
+|
+|-- resource                                    <--- datasets
+|   |-- courses
+|   |   |-- CATALOG.csv                         <--- Concordia University open dataset
+|   |   |-- computer_science_courses.html       <--- Course description
+|   |   |-- processed_CATALOG.csv               <--- Processed Concordia University dataset
+|   |
+|   |-- GCS_143                                 <--- Course content
+|   |   |-- ...
+|   |
+|   |-- GCS_163                                 <--- Course content
+|   |   |-- ...
+|   |
+|   |-- GCS_165                                 <--- Course content
+|   |   |-- ...
+|   |
+|   |-- data_source.txt                         <--- Data information
+|
+|-- kb.ttl                                      <--- Knowledge base
+|-- main.py                                     <--- Main program
+|-- utils.py                                    <--- Python functions
+|-- report.pdf
+|-- README.md
+|-- README.pdf
+|-- tika-app-1.26.jar
 
 
 <!-- CREDITS -->
