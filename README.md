@@ -4,7 +4,7 @@ A web application for storing and retrieving student information
 <h1 align="left"> Face-Mask-Detection </h1>
 <!-- <img src="images/Animation.gif" align="left" width="99%" height="99%"> -->
 
-![Realtime](https://user-images.githubusercontent.com/49322948/159162779-30679424-991e-4088-a56d-333399887281.gif)
+<!-- ![Realtime](https://user-images.githubusercontent.com/49322948/159162779-30679424-991e-4088-a56d-333399887281.gif) -->
 
 <p align="justify"> 
 The main objective of this project is to detect discriminating features in an image and find the best matching features in other images. Because features should be reasonably invariant to translation, rotation, and illumination.
