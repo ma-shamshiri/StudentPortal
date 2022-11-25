@@ -1,8 +1,8 @@
 # StudentPortal
 A web application for storing and retrieving student information
 
-<h1 align="left"> Face-Mask-Detection </h1>
-<!-- <img src="images/Animation.gif" align="left" width="99%" height="99%"> -->
+<h1 align="left"> Student Portal </h1>
+<!-- <img src="images/portal.png" align="left" width="99%" height="99%"> -->
 
 <!-- ![Realtime](https://user-images.githubusercontent.com/49322948/159162779-30679424-991e-4088-a56d-333399887281.gif) -->
 
@@ -55,19 +55,6 @@ The main objective of this project is to detect discriminating features in an im
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" width="60px />
   </a>
 <P/>
-
- 1. Open a `Command Prompt` (NOT `Windows PowerShell`) or a `Terminal`
- 2. Create a conda environment `conda create -n is python=3.6.6 -y`
- 3. Activate this environment `activate is` (Windows) or `source activate is` (Linux/macOS)
- 4. Install the following packages `tensorflow`, `keras`, `opencv`, `matplotlib`, `numpy`, `pandas`, `scikit-learn`, and `notebook`:       </br></br>
-      * <a href="https://www.python.org/" target="_blank">Python (3.6)</a>
-      * <a href="https://www.tensorflow.org/" target="_blank">Angular (15)</a> - `npm install -g @angular/cli`
-      * <a href="https://keras.io/" target="_blank">Keras (2.1.6)</a> - `pip install keras==2.1.6`
-      * <a href="https://opencv.org/" target="_blank">OpenCV (4.4.0)</a> - `pip install opencv==4.0.0`
-      * <a href="https://matplotlib.org/" target="_blank">Matplotlib (3.5.1)</a> - `pip install matplotlib==3.5.1`
-      * <a href="https://scikit-learn.org/stable/" target="_blank">Sklearn (0.23.2)</a> - `pip install scikit-learn==0.23.2`
-      * <a href="https://jupyter.org/" target="_blank">Jupyter (4.7.1)</a> - `pip install notebook`
-
 
 <!-- How to Use -->
 <h2 id="HowToUse"> How to Use </h2>
