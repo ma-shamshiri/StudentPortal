@@ -1,7 +1,15 @@
 # StudentPortal
-A web application for storing and retrieving student information
+Student Data Management Web Application for Schools
 
-<h1 align="left"> Student Portal </h1>
+<h1 align="left"> About the Project </h1>
+<p> 
+The purpose of this project is to develop a web application that allows schools and educational institutions to store and retrieve student information easily and securely. The application will provide a centralized platform for managing and accessing student data, such as personal information, academic records, attendance, and other related details.
+
+The web application will have a user-friendly interface that enables authorized users, such as teachers, administrators, and support staff, to log in and access student information quickly and easily. The application will allow users to perform various tasks, including adding new students, editing existing information, generating reports, and tracking student progress.
+
+The system will be designed with security and privacy in mind, with features such as user authentication, data encryption, and role-based access control. Only authorized users with the appropriate permissions will be able to view and modify student data, ensuring that sensitive information is kept confidential and secure.
+</p>
+
 <img src="images/portal.png" align="left" width="99%" height="99%">
 
 <!-- ![Realtime](https://user-images.githubusercontent.com/49322948/159162779-30679424-991e-4088-a56d-333399887281.gif) -->
